@@ -10,3 +10,10 @@ int main(){
     }
     cout<<"Sum is :-"<<sum<<endl;
 }
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+    
+//     return 0;
+// }
