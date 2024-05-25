@@ -21,6 +21,7 @@ int main(){
     {
       cin>>arr[i]; 
       
+      
     }
    cout<<sum(arr,n)<<endl;
      
