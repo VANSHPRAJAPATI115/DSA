@@ -1,1 +1,1 @@
-return 0;
+   int mid=s+(e-s)/2;
