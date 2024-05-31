@@ -30,6 +30,8 @@ void merge(int *arr, int s, int e){
         arr[mainArrayIndex++]=second[index2++];
   }
     }
+
+    
     while(index1<len1){
         arr[mainArrayIndex++]=first[index1++];
     }
