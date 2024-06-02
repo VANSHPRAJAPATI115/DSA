@@ -30,9 +30,12 @@ int main(){
 
     Node* node1 = new Node(10);
         Node* head=node1;
-
     Node* tail=node1;
+        print(tail);
+
     insertAtTail(tail,12);
+        print(tail);
+
     insertAtTail(tail,15);
     print(tail);
     
