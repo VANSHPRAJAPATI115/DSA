@@ -66,7 +66,7 @@ void levelOrderTraversal(node* root){
 int main() {
     node* root = NULL;
     root = buildTree();
-
+    cout<<"printing traversal level"<<endl;
     levelOrderTraversal(root);
     return 0;
 }
