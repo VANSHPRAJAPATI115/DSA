@@ -76,6 +76,7 @@ int main() {
     Solution sol;
     int result = sol.sumK(root, k);
     cout << "Number of paths with sum " << k << ": " << result << endl;
+    cout << "Number of paths with sum " << result<< endl;
 
     return 0;
 }
