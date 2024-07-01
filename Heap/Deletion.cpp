@@ -66,8 +66,6 @@ int main(){
     h.insert(50);
     h.insert(55);
     h.insert(53);
-    h.insert(52);
-    h.insert(56);
     h.DeleteFromHeap();
     h.print();
     return 0;
