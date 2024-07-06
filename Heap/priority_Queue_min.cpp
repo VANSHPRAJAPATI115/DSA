@@ -10,5 +10,11 @@ int main(){
     cout<<"element at Top "<<pq.top()<<endl;
     pq.pop();
     cout<<"element at Top "<<pq.top()<<endl;
+    if(pq.empty()){
+        cout<<"true"<<endl;
+    }
+    else{
+        cout<<"false"<<endl;
+    }
     return 0;
 }
