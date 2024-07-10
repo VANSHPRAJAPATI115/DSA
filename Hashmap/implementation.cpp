@@ -7,10 +7,16 @@ int main(){
     unordered_map<string, int> m;
 
     //insertion
+    //1
     pair<string, int> p = make_pair("vansh", 1);
     m.insert(p);
 
+    //2
+    pair<string, int> pair2("love", 2);
+    m.insert(pair2);
+
 
     cout<<m["vansh"]<<endl;
+    cout<<m["love"]<<endl;
     return 0;
 }
