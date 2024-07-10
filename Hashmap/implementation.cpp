@@ -15,8 +15,12 @@ int main(){
     pair<string, int> pair2("love", 2);
     m.insert(pair2);
 
+    //3
+    m["mera"]=3;
+
 
     cout<<m["vansh"]<<endl;
     cout<<m["love"]<<endl;
+    cout<<m["mera"]<<endl;
     return 0;
 }
