@@ -22,5 +22,27 @@ int main(){
     cout<<m["vansh"]<<endl;
     cout<<m["love"]<<endl;
     cout<<m["mera"]<<endl;
+    //first time output terminate
+    // cout<<m.at("unknown")<<endl;
+    cout<<m["unknown"]<<endl;
+    cout<<m.at("unknown")<<endl;
+
+    m.erase("love");
+    cout<<m.size()<<endl;
+    m.erase("unknown");
+    cout<<m.size()<<endl;
+
+    for(auto i:m){
+        cout<<i.first<<" "<<i.second<<endl;
+    }
+
+    unordered_map<string, int>:: iterator it = m.begin();
+    while(it != m.end()){
+        cout<<it->first<<" "<<it->second<<endl;
+        it++;
+    }
+
+
+
     return 0;
 }
